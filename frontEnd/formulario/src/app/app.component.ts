@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,7 @@ export class AppComponent {
 
   registrarformulario(){
     console.log("Estamos en registrar formulario")
+    //RouterLink = '';
   }
 
   ConsultarRespuestas(){

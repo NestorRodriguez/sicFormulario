@@ -1,0 +1,28 @@
+<!-- <form (ngSubmit)="login(forma)" #forma="ngForm">
+    <item class="loginInput01" color="primary">
+        <label color="light">
+            Usuario
+        </label>
+        <input type="text" required ngModel #email="ngModel" name="email" placeholder="" maxLength="200" minLength="3"></input>
+         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></ion-input>
+    </item>
+</form> -->
+
+<div class="container formulario">
+    <div class="tool">
+    </div>
+    <h1>Login</h1>
+    <form  forma="ngForm">
+      <div class="form-group">
+        <label for="name">Usuario</label>
+        <input type="text" class="form-control" ngModel required name="ngModel.name" placeholder="Digite su usuario">
+      </div>
+
+      <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" class="form-control" ngModel required pass="ngModel.pass" placeholder="Digite su contraseña">
+      </div>
+
+      <button type="submit" class="btn btn-success" [routerLink]="['']">Ingresar</button>
+    </form >
+</div>
