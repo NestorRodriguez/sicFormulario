@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2/02/2020, 08:37:25 PM
+    Author     : aiya
+*/
+body{
+    background: #252880;
+}
+#marcologin{
+    width: 600px;
+    border: 3px solid #252880;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 12px;
+}
+#marcoencuesta{
+    width: 800px;
+    border: 3px solid #252880;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+}
+#titulo{
+    width: auto;
+    background: #ffca4f;
+    height: 40px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 6px 11px 6px 11px
+}
+#mensaje{
+    background: #ffffff;
+    padding: 25px 10px 25px 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+

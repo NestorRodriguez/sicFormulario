@@ -27,7 +27,7 @@ import javax.persistence.Persistence;
 public class MarcapcJpaController implements Serializable {
 
     public MarcapcJpaController() {
-        this.emf = Persistence.createEntityManagerFactory("Conexion-JAVA-MySQL-JPAPU");
+        this.emf = Persistence.createEntityManagerFactory("WebApplication3PU");
     }
     private EntityManagerFactory emf = null;
 

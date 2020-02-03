@@ -28,7 +28,7 @@ import javax.persistence.Persistence;
 public class RolJpaController implements Serializable {
 
     public RolJpaController() {
-        this.emf = Persistence.createEntityManagerFactory("Conexion-JAVA-MySQL-JPAPU");
+        this.emf = Persistence.createEntityManagerFactory("WebApplication3PU");
     }
     private EntityManagerFactory emf = null;
 
